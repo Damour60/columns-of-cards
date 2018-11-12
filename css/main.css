@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+  font-family: Open-Sans, sans-serif;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  font-size: 2rem;
+}
+
+main {
+  display: flex;
+}
+
+div {
+  display: inline-block;
+  border: 1px solid #333;
+  padding: 1.5rem;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+div img {
+  width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+h2 {
+  text-align: left;
+  font-size: 1rem;
+  margin: 0;
+}
+
+p {
+  display: inline-block;
+  font-size: .875rem;
+}
+
+a {
+  display: block;
+  background-color: #333;
+  padding: .75rem;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #f2f2f2;
+  margin: 0 0 1.5rem;
+
+}
+
+.names {
+  font-style: italic;
+  display: block;
+  margin: 0;
+}
+
+.anderon {
+  background-color: #e2e2e2;
+
+}
+
+.knights {
+  background-color: #ccc;
+}
+
+.dragons {
+  background-color: #aaa;
+}
+
+.light-speed {
+  background-color: #999;
+}
+
+a:hover {
+  background-color: #000;
+}
